@@ -59,6 +59,11 @@ void display()
 
     for (int j = 0; j < nPanjang; j++)
     {
-
+        cout << element[j];
+        if (j < nPanjang - 1)
+        {
+            cout << " -> ";
+        }
     }
+    cout << endl;
 }
